@@ -7,6 +7,7 @@ conversations.participants as Chatteilnehmer,
 thread.cid as ChatID, thread.snapExpired as Dateitransfer, 
 users.age as angegebenesAlter, 
 replace(replace(users.sex,'1','w'),'2','m') as angegebenesGeschlecht
+-- thread.snapExpired Zum Anzeigen von versandten Mediendateien, thread.snapExpired (1 = Dateitransfer)                
 from thread
 inner join users
 ON users.id = thread.sender
