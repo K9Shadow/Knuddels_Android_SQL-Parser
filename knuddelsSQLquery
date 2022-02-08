@@ -1,0 +1,16 @@
+select 
+users.id as UserID, 
+users.nickname as Username, 
+datetime(thread.timestamp/1000, 'unixepoch', 'localtime') as Datum, 
+thread.message as Nachricht, 
+conversations.participants as Chatteilnehmer, 
+thread.cid as ChatID, thread.snapExpired as Dateitransfer, 
+users.age as angegebenesAlter, users.sex as angegebenesGeschlecht
+-- Zum Anzeigen von Alter und Geschlecht (users.age, users.sex nutzen) wobei 1=m und 2=w ist        users.age, users.sex
+-- Zum Anzeigen von versandten Mediendateien, thread.snapExpired (1 = Dateitransfer)                thread.snapExpired
+from thread
+inner join users
+ON users.id = thread.sender
+inner join conversations
+ON thread.cid = conversations.id
+ORDER by Datum ASC
