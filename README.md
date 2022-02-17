@@ -26,4 +26,4 @@ Sollten jetzt bei den Überschriften noch keine "Sortierfunktion" zur Verfügung
 Ursprungscode: Niklas Linder, 17.09.21 :)
 Codeupdate: 17.02.22 - Thx an Rosi für die Bug- und Verbesserungsmeldungen. :)
 
-Wer noch Verbesserungsvorschläge hat, bitte einrichen. Das Ganze ist WiP.
+Wer noch Verbesserungsvorschläge hat, bitte einrichen. Das Ganze ist wip.
