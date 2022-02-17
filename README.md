@@ -1,5 +1,5 @@
 # knuddelsparser
-SQL Parser für die Knuddels Android App v5.92
+SQL Parser für die Knuddels Android App (Getestet an Datenbank aus v5.92)
 
 
 Moin,
@@ -24,3 +24,4 @@ Sollten jetzt bei den Überschriften noch keine "Sortierfunktion" zur Verfügung
 
 Thx an Rosi für Bugmeldungen. :)
 
+Wer noch Verbesserungsvorschläge hat, bitte einrichen. Das Ganze ist WiP.
