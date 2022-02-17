@@ -20,7 +20,7 @@ Im nächsten Fenster Dateiursprung: 65001: Unicode (UTF-8), Trennzeichen Komma u
 
 Die Daten sollten nun mit vernünftigen Spalten und Zeilen und richtigen Sonderzeichen angezeigt werden. Wenn nicht, ist etwas beim Import in Excel oder beim CSV-Export schiefgegangen.
 
-Sollten jetzt bei den Überschriften noch keine "Sortierfunktion" zur Verfügung stehen in Excel auf "Start", "Sortieren und Filtern" und "Filtern" klicken.
+Sollten jetzt bei den Überschriften noch keine "Sortierfunktion" zur Verfügung stehen in Excel auf "Daten", "Sortieren und Filtern" und "Filtern" klicken.
 
 Thx an Rosi für Bugmeldungen. :)
 
