@@ -2,7 +2,7 @@ select
 users.id as UserID, 
 users.nickname as Username, 
 datetime(thread.timestamp/1000, 'unixepoch', 'localtime') as Datum, 
-thread.message as Nachricht, 
+replace(thread.message, CHAR(10), '') as Nachricht, 
 conversations.participants as Chatteilnehmer, 
 thread.cid as ChatID, 
 replace(replace(thread.snapExpired,'1','ja'),'0','nein') as Dateitransfer, 
