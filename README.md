@@ -1,5 +1,5 @@
 # knuddelsparser
-SQL Parser für die Knuddels Android App (Getestet an Datenbank aus v5.92)
+SQL Parser für die Knuddels Android App (getestet an Datenbank aus v5.92)
 
 
 Moin,
@@ -7,7 +7,7 @@ Moin,
 bei dem Parser handelt es sich um ein SQL Script. Um verwertbare Daten exportieren zu können, müsst ihr das Script in einem SQL Datenbank Tool einlesen.
 Ihr könnt beispielsweise DB Browser nutzen. Anschließend speichert ihr das nach dem Ausführen des Scripts gespeicherte Ergebnis als CSV-Datei ab, welche ihr dann wiederum mit Excel einladet. In Excel könnt ihr dann nach Chats, Usern, Datum, usw. filtern.
 
-Schritt-für-Schritt Anleitung:
+Schritt-für-Schritt-Anleitung:
 
 Eure Knuddels Datenbank (com.knuddels.android/db/kunddels$USERNAME) im DB Browser öffnen.
 
