@@ -23,7 +23,7 @@ Die Daten sollten nun mit vernünftigen Spalten und Zeilen und richtigen Sonderz
 
 Sollten jetzt bei den Überschriften noch keine "Sortierfunktion" zur Verfügung stehen in Excel auf "Daten", "Sortieren und Filtern" und "Filtern" klicken.
 
-Ursprungscode: (c) Niklas Linder, 17.09.21 :)
-Codeupdate: 17.02.22 - Thx an Rosi für die Bug-Verbesserungsmeldungen. :)
+Ursprungscode: Niklas Linder, 17.09.21 :)
+Codeupdate: 17.02.22 - Thx an Rosi für die Bug- und Verbesserungsmeldungen. :)
 
 Wer noch Verbesserungsvorschläge hat, bitte einrichen. Das Ganze ist WiP.
