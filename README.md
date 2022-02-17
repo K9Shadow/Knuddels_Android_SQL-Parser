@@ -15,8 +15,9 @@ Unter "SQL ausführen" das hier zur Verfügung gestellte Script einladen und aus
 
 Die erhaltenen Daten dann als CSV mit den Standardeinstellungen nach CSV exportieren (Haken rein bei "Spaltennamen in der ersten Zeile, Feld-Seperator ist das Komma und das String-Zeichen sind die Anführungsstriche. Das Zeilenumbruchs-Zeichen ist Windows CR+LF)
 
-In Excel (2016) eine leere Arbeitsmappe öffnen. Unter "Daten" dann "Neue Abfrage", "Aus Datei", "Aus CSV" und eure exportierte *.csv auswählen.
+In Excel (2016) eine leere Arbeitsmappe öffnen. Unter "Daten" dann "Neue Abfrage", "Aus Datei", "Aus CSV" und eure exportierte .csv auswählen (oder einfach "Daten" "Text in Spalten".
 Im nächsten Fenster Dateiursprung: 65001: Unicode (UTF-8), Trennzeichen Komma und Datentypenerkennung auf den ersten 200 Zeilen belassen und auf "Laden" unten rechts klicken.
+
 
 Die Daten sollten nun mit vernünftigen Spalten und Zeilen und richtigen Sonderzeichen angezeigt werden. Wenn nicht, ist etwas beim Import in Excel oder beim CSV-Export schiefgegangen.
 
