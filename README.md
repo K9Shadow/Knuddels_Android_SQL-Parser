@@ -1,5 +1,5 @@
 # knuddelsparser
-SQL Parser für die Knuddels Android App (getestet an Datenbank aus v5.92)
+SQL Parser für die Knuddels Android App (getestet an Datenbank aus v5.92 und v6.37 (Danke Rosi))
 
 
 Moin,
