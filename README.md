@@ -1,5 +1,8 @@
 # knuddelsparser
-SQL Parser für die Knuddels Android App (getestet an Datenbanken aus v5.92, v6.37 (Danke Rosi)) und v6.79 (Danke an Malte IZ).
+SQL Parser für die Knuddels Android App (getestet an Datenbanken aus v5.92, v6.37 (Danke Rosi) und v6.79 (Danke an Malte IZ)).
+
+Die geparsten Daten sind verifiziert. Habe mich selbst bei Knuddels registriert und die App mit eigenen Chats unter die Lupe genommen.
+Der Parser bereitet Daten aus privaten Chats auf. Besuchte öffentliche Kanäle und öffentliche Chats in den Kanälen werden NICHT aufbereitet.
 
 
 Moin,
