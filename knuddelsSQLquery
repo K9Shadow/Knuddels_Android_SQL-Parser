@@ -1,10 +1,9 @@
 select 
-users.id as UserID, 
+users.uid as UserID, 
 users.nickname as Username, 
 datetime(thread.timestamp/1000, 'unixepoch', 'localtime') as Datum, 
-replace(thread.message, CHAR(10), '') as Nachricht, 
+replace(thread.message, CHAR(10), '') as PrivaterChat, 
 conversations.participants as Chatteilnehmer, 
-thread.cid as ChatID, 
 replace(replace(thread.snapExpired,'1','ja'),'0','nein') as Dateitransfer, 
 users.age as angegebenesAlter, 
 replace(replace(users.sex,'1','m'),'2','w') as angegebenesGeschlecht               
@@ -14,3 +13,7 @@ ON users.id = thread.sender
 inner join conversations
 ON thread.cid = conversations.id
 ORDER by Datum ASC
+
+
+-- (c) Niklas Linder, 17.09.21 :)
+-- updated 19.09.22, Danke an Malte (IZ) :)
