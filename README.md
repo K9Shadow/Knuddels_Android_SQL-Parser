@@ -1,5 +1,5 @@
 # knuddelsparser
-SQL Parser für die Knuddels Android App (getestet an Datenbank aus v5.92 und v6.37 (Danke Rosi))
+SQL Parser für die Knuddels Android App (getestet an Datenbanken aus v5.92, v6.37 (Danke Rosi)) und v6.79 (Danke an Malte IZ).
 
 
 Moin,
@@ -25,5 +25,6 @@ Sollten jetzt bei den Überschriften noch keine "Sortierfunktion" zur Verfügung
 
 Ursprungscode: Niklas Linder, 17.09.21 :)
 Codeupdate: 17.02.22 - Thx an Rosi für die Bug- und Verbesserungsmeldungen. :)
+Codeupdate2:19.09.22 - Thx an Malte aus IZ für Rückmeldung. Die UserID sollte nun eine einmalige ID sein. Die zuvor geparste ID war nicht einzigartig.
 
-Wer noch Verbesserungsvorschläge hat, bitte einrichen. Das Ganze ist wip.
+Wer noch Verbesserungsvorschläge hat, bitte melden! Das Ganze ist wip.
