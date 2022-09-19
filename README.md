@@ -27,6 +27,7 @@ Ursprungscode: Niklas Linder, 17.09.21 :)
 
 Codeupdate: 17.02.22 - Thx an Rosi für die Bug- und Verbesserungsmeldungen. :)
 
-Codeupdate 2:19.09.22 - Thx an Malte aus IZ für Rückmeldung. Die UserID sollte nun eine einmalige ID sein. Die zuvor geparste ID war nicht einzigartig.
+Codeupdate 2: 19.09.22 - Thx an Malte aus IZ für Rückmeldung. Die UserID sollte nun die einmalige UserID sein. Die zuvor geparste ID war nicht einzigartig.
+
 
 Wer noch Verbesserungsvorschläge hat, bitte melden! Das Ganze ist wip.
