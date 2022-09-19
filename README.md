@@ -24,7 +24,9 @@ Die Daten sollten nun mit vernünftigen Spalten und Zeilen und richtigen Sonderz
 Sollten jetzt bei den Überschriften noch keine "Sortierfunktion" zur Verfügung stehen in Excel auf "Daten", "Sortieren und Filtern" und "Filtern" klicken.
 
 Ursprungscode: Niklas Linder, 17.09.21 :)
+
 Codeupdate: 17.02.22 - Thx an Rosi für die Bug- und Verbesserungsmeldungen. :)
+
 Codeupdate2:19.09.22 - Thx an Malte aus IZ für Rückmeldung. Die UserID sollte nun eine einmalige ID sein. Die zuvor geparste ID war nicht einzigartig.
 
 Wer noch Verbesserungsvorschläge hat, bitte melden! Das Ganze ist wip.
