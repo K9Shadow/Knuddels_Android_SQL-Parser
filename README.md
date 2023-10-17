@@ -1,4 +1,7 @@
 # knuddelsparser
+
+WICHTIGES UPDATE: AB Version 6.7.3 (Oktober 2023) hat Knuddels eine Änderung in der Architektur vorgenommen. Chats werden nicht mehr im Dateisystem von Android gespeichert! Sobald der Ordner com.knuddels.com/database/ vorhanden ist, sind keine Chats mehr lokal gespeichert.
+
 SQL Parser für die Knuddels Android App (getestet an Datenbanken aus v5.92, v6.37 (Danke Rosi) und v6.79 (Danke an Malte IZ)).
 
 Die geparsten Daten sind verifiziert. Habe mich selbst bei Knuddels registriert und die App mit eigenen Chats unter die Lupe genommen.
@@ -31,6 +34,8 @@ Ursprungscode: Niklas Linder, 17.09.21 :)
 Codeupdate: 17.02.22 - Thx an Rosi für die Bug- und Verbesserungsmeldungen. :)
 
 Codeupdate 2: 19.09.22 - Thx an Malte aus IZ für Rückmeldung. Die UserID sollte nun die einmalige UserID sein. Die zuvor geparste ID war nicht einzigartig.
+
+Update 3: 17.10.23 - Mit Knuddelsversion 6.7.3 werden keine Chats mehr lokal im Gerät gespeichert. - Thx an Andre. :)
 
 
 Wer noch Verbesserungsvorschläge hat, bitte melden! Das Ganze ist wip.
